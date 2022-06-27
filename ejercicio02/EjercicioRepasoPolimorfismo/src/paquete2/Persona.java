@@ -25,7 +25,7 @@ public class Persona {
         nombre = n;
     }
     
-    public void establecerCedula(String n){
+    public void establecerApellido(String n){
         cedula = n;
     }
     
@@ -33,7 +33,7 @@ public class Persona {
         return nombre;
     }
     
-    public String obtenerCedula(){
+    public String obtenerApellido(){
         return cedula;
     }
     
